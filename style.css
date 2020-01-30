@@ -1,0 +1,166 @@
+:root {
+    --color-background: #222222;
+    --color-background-shadow: #4a4a4a;
+    --color-dark: #1F232A;
+    --color-text: #efefef;
+    --color-bar: #1a1a1a;
+    --color-textdark: #777474;
+    --color-button: #404040;
+    --color-icon: #E1E1E1;
+}
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: var(--color-dark) var(--color-background-shadow);
+    color: var(--color-text) !important;
+}
+
+body, .home-enterprise-wrapper::before, .bg-gray-light, .bg-gray-dark, .auth-form-body, .bg-gray, .bg-white, .ajax-pagination-form .ajax-pagination-btn, .branch-name, .Box-header, .Box--overlay, .pinned-item-checkbox:checked + .pinned-item-name, .repohead.experiment-repo-nav, .SelectMenu-divider, .protip code, kbd, .Box-row, .Box-footer, .select-menu-divider, .select-menu-header, .MarketplaceBackground-buffer, main > .border-gray-light, .gh-header, .discussion-timeline-actions, .timeline-comment, .page-responsive .previewable-comment-form .comment-form-head.tabnav, .conversation-list-heading .inner, .flash, .pricing-matrix-column-tier {
+    background-color: var(--color-background) !important;
+}
+.jumbotron-codelines {
+    background: url(/images/modules/site/heroes/simple-codelines.svg), var(--color-background) !important;
+}
+header, .dropdown-menu, .user-profile-nav, .pinned-item-list-item, .discussion-item-icon, .user-profile-sticky-bar::after, .Popover-message, .SelectMenu-item, .social-count, .js-navigation-item, .commit-tease, #js-issues-toolbar, .SelectMenu-modal, .SelectMenu-list > .ws-normal, .pagination .disabled, .pagination .disabled:hover, .pagination .gap, .pagination .gap:hover, .pagination [aria-disabled="true"], .pagination [aria-disabled="true"]:hover, .pagination a, .pagination em, .pagination span, .select-menu-item, .select-menu-filters, .Box-body.comment-body, .comment-body, .thread-subscription-status, .TimelineItem-badge, .gh-header .gh-header-sticky.is-stuck + .gh-header-shadow, #projects-results, .wiki-custom-sidebar, .filter-bar, .js-selected-navigation-item.menu-item, .blankslate, .tint-box, .contrib-person > .Box, .capped-card-content, .Box-body, .Tile {
+    background-color: var(--color-bar) !important;
+}
+.text-gray-dark, .text-gray-light, .link-gray-dark, .muted-link, .text-gray, .subnav-link.selected, .link-gray {
+    color: var(--color-text) !important;
+}
+.form-group .form-control, .jump-to-suggestions-path, .form-control, .form-select, .subnav-item:focus, .subnav-item:hover, .tabnav-tab.selected, .tabnav-tab[aria-current], .tabnav-tab[aria-selected="true"], .filter-item:hover, .timeline-comment-header, .comment-reactions, .markdown-body .highlight pre, .markdown-body pre, .menu-item.selected, .menu-item[aria-current], .menu-item[aria-selected="true"], .table-list-header, .network .current-repository, .topic-tag, .navigation-focus, .bg-blue-light, .pricing-matrix-row:hover .pricing-matrix-row-text, .pricing-matrix-row:hover .pricing-matrix-column-feature {
+    background-color: var(--color-background-shadow) !important;
+}
+.form-group.errored .error * {
+    background-color: #990919 !important;
+    color: var(--color-text) !important;
+}
+.jump-to-field-active {
+    background-color: var(--color-background-shadow) !important;
+    color: var(--color-text) !important;
+}
+.box-shadow-extra-large {
+    background: var(--color-bar) url(https://github.githubassets.com/images/modules/site/universe19.png) bottom right no-repeat !important;
+    background-size: contain;
+}
+svg > path, .day text, .tick text {
+    fill: var(--color-icon) !important;
+}
+::placeholder {
+    color: var(--color-text) !important;
+}
+input {
+  filter: none;
+}
+.btn {
+    background-color: var(--color-bar) !important;
+    color: var(--color-text) !important;
+    background-image: inherit !important;
+}
+.UnderlineNav-item.selected, .UnderlineNav-item[aria-current], .UnderlineNav-item[role="tab"][aria-selected="true"] {
+    border-bottom-color: white !important;
+}
+
+#package-results > div{
+    background-color: var(--color-bar) !important;
+}
+
+button[aria-label="Search"], button[aria-label="Search"]:hover {
+    background-color: var(--color-background-shadow) !important;
+    border: 1px solid #d1d5da !important;
+}
+.reponav-item.selected {
+    background-color: var(--color-bar) !important;
+    border-color: white !important;
+}
+
+#readme > .Box-body {
+    background-color: var(--color-bar) !important;
+}
+
+.dashboard .watch_started .border-gray.flex-items-baseline .text-bold.text-gray-dark,
+.dashboard .repo .border-gray.flex-items-baseline .text-bold.text-gray-dark,
+.dashboard .public .border-gray.flex-items-baseline .text-bold.text-gray-dark {
+	display: none;
+}
+
+.dashboard .js-all-activity-header + div {
+	background-color: var(--color-bar);
+	border: 1px solid #d1d5da;
+	border-radius: 3px;
+	margin-top: 8px !important;
+}
+
+.dashboard .js-all-activity-header + div .Box {
+	padding: 0 !important;
+	border: none;
+	background: none;
+}
+
+.dashboard .body > .border-bottom {
+	margin: 0;
+	padding-left: 16px;
+	padding-right: 16px;
+}
+
+.dashboard .flex-items-baseline.py-3 {
+	align-items: flex-start !important;
+}
+.dashboard .body .mr-3 + div {
+	margin-top: -5px;
+	margin-bottom: -5px;
+}
+
+.dashboard .repo-description p:last-child {
+	margin-bottom: 0;
+}
+
+.dashboard .repo .f6.text-gray {
+	display: none;
+}
+
+.dashboard .Details .flex-items-baseline .text-bold.text-gray-dark {
+	font-size: 1em !important;
+}
+
+.dashboard-rollup-items .body {
+	border-top: 1px solid #e1e4e8;
+	margin-top: 8px;
+}
+
+.js-news-feed-event-group {
+	padding-right: 0 !important;
+}
+
+.Details.js-news-feed-event-group .js-details-target {
+	display: none;
+}
+.Details:not(.Details--on) .Details-content--hidden.dashboard-rollup-items {
+	display: block !important;
+}
+
+.dashboard .flex-items-baseline [value='Star'],
+.dashboard .flex-items-baseline [value='Unstar'] {
+	margin-right: 15px;
+}
+    
+.dashboard .flex-items-baseline .f6.mt-2 {
+	opacity: 0.5;
+}
+
+.dashboard-sidebar .Box-title {
+	padding-top: 4px !important;
+	padding-bottom: 4px !important;
+}
+.markdown-body > :last-child, .overflow-hidden > :last-child  {
+    background: inherit !important;
+}
+.IssueLabel {
+    color: black !important;
+}
+.discussion-sidebar-heading > div, .sidebar-notifications .thread-subscription-status .reason {
+    padding: 5px !important;
+}
+.timeline-comment-wrapper {
+    border-top: initial !important;
+    border-bottom: inherit !important;
+}

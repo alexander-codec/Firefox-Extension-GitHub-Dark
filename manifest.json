@@ -3,7 +3,7 @@
   "manifest_version": 2,
   "name": "Github Dark",
   "author": "Johnendz",
-  "version": "1.1",
+  "version": "1.2",
 
   "content_scripts": [
     {

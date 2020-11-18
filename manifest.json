@@ -1,25 +1,21 @@
 {
-  "description": "Ativar modo escuro no Github",
+  "description": "Tenha uma nova experiência no GitHub | Have a new experience on WhatsApp Web",
   "manifest_version": 2,
-  "name": "Github Dark",
+  "name": "Github Dark (Tema Escuro)",
   "author": "Johnendz",
-  "version": "1.2",
+  "version": "1.4",
 
   "content_scripts": [
     {
       "matches": ["*://github.com/*"],
-      "css":["style.css"],
-      "js": ["jquery.min.js", "project-board.js"],
+      "css":["style.minified.css"],
 	  "run_at": "document_start"
     }
   ],
   
   "icons": {
-    "32": "icons/32.png",
-    "48": "icons/48.png",
+	"32": "icons/32.png",
     "64": "icons/64.png",
-    "96": "icons/96.png",
-    "128": "icons/128.png",
-    "256": "icons/256.png"
+    "128": "icons/128.png"
   }
 }

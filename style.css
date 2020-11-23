@@ -6,6 +6,7 @@
     --color-text-shadow: #b3b3b3;
     --color-icon: #919191;
 	/* redesign das cores */
+	--color-bg-secondary: #222222;
 	--color-header-bg: #1a1a1a;
 	--color-bg-canvas: #222222;
 	--color-bg-info: #222222;
@@ -17,6 +18,7 @@
 	--color-btn-border: #4a4a4a;
 	--color-btn-hover-bg: #1a1a1a;
 	--color-btn-hover-border: #efefef;
+	--color-auto-gray-9: #efefef;
 	--color-input-bg: #4a4a4a;
 	--color-input-contrast-bg: #4a4a4a;
 	--color-bg-overlay: #1a1a1a;
@@ -37,6 +39,10 @@
 	--color-auto-gray-6: #b3b3b3;
 	--color-btn-selected-bg: #4a4a4a;
 	--color-state-hover-secondary-bg: #4a4a4a;
+	--color-text-secondary: #b3b3b3;
+	--color-box-bg-info: #1a1a1a;
+	--color-box-border-info: #4a4a4a;
+	--color-social-count-bg: #1a1a1a;
 }
 * {
     scrollbar-width: thin;
@@ -79,4 +85,19 @@
 }
 .delete-topic-button:hover, .topic-tag-action:hover, .topic-tag:hover {
 	border: 1px solid #efefef;
+}
+.pricing-matrix-column-tier {
+    background-color: var(--color-background-dark) !important;
+}
+.pricing-matrix-row:hover .pricing-matrix-column-feature, .pricing-matrix-row:hover .pricing-matrix-row-text, .pricing-matrix-row:hover .pricing-matrix-column-tier {
+    background-color: var(--color-background-shadow) !important;
+}
+.timeline-comment--caret.current-user::before, .timeline-comment--caret.current-user::after, .timeline-comment--caret::before, .timeline-comment--caret::after {
+	border-right-color: var(--color-background-shadow) !important;
+}
+.application-main main > div:nth-of-type(2) {
+	background-color: var(--color-background) !important;
+}
+.subnav-link.selected {
+	color: var(--color-text) !important;
 }
